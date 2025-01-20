@@ -15,7 +15,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
     box-sizing: border-box;
-    background-color:  hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);;
     color:  hsl(0, 0%, 7%);
     font-size: 16px;
     font-family: "Figtree", serif;
@@ -32,13 +32,7 @@ a {
 }
 
 .container {
-    background-color: hsl(47, 88%, 63%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: auto;
-    width: 60%;
+    height: 100vh;
     padding: 5rem 1.5rem   
 }
 
@@ -49,6 +43,7 @@ a {
     border-radius: 1rem;
     border: solid hsl(0, 0%, 7%) 1px;
     box-shadow: 8px 8px  hsl(0, 0%, 7%);
+ 
 }
 
 header img {
@@ -100,7 +95,7 @@ header p {
     margin-top: 0.5rem;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
     .container {
         display: flex;
         height: auto;
